@@ -1,0 +1,7 @@
+.app {
+  font-family: 'Arial', sans-serif;
+}
+
+.content {
+  padding-top: 60px; /* Space for fixed navbar */
+}

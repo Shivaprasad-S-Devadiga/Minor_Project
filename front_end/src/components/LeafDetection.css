@@ -1,0 +1,61 @@
+.leaf-detection {
+  margin-top: 80px; /* To avoid overlap with navbar */
+  text-align: center;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #e9f7ef, #ffffff);
+  min-height: 100vh;
+}
+
+.upload-section h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.file-input {
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 1rem;
+  background: linear-gradient(135deg, #28a745, #66d47f);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.file-input:hover {
+  background: linear-gradient(135deg, #218838, #5ab46c);
+}
+
+.image-preview {
+  margin: 20px 0;
+}
+
+.uploaded-image {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.check-button {
+  padding: 12px 25px;
+  font-size: 1rem;
+  background: linear-gradient(135deg, #007bff, #3b9fff);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.check-button:hover {
+  background: linear-gradient(135deg, #0056b3, #338bdb);
+}
+
+.output-section {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: #555;
+}
